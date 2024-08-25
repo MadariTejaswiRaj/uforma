@@ -6,7 +6,7 @@ export default async function ExplorePage() {
   const supabase = createClient()
   const { data: ideas, error } = await supabase.from('ideas').select('*')
   const response = await supabase
-  .from('countries')
+  .from('ideas')
   .delete()
   .eq('id', 1)
 
