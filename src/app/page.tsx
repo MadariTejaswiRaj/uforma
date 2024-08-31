@@ -52,15 +52,15 @@ const LandingPage = () => {
           <h2 className="text-4xl font-bold text-center mb-12">Testimonials</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-              <p className="text-gray-600 mb-4">"uforma has changed the way I connect with others."</p>
+              <p className="text-gray-600 mb-4">uforma has changed the way I connect with others.</p>
               <h3 className="text-xl font-bold">User 1</h3>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-              <p className="text-gray-600 mb-4">"A fantastic platform for exploring new ideas."</p>
+              <p className="text-gray-600 mb-4">A fantastic platform for exploring new ideas.</p>
               <h3 className="text-xl font-bold">User 2</h3>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-              <p className="text-gray-600 mb-4">"I love asking questions and getting insightful answers."</p>
+              <p className="text-gray-600 mb-4">I love asking questions and getting insightful answers.</p>
               <h3 className="text-xl font-bold">User 3</h3>
             </div>
           </div>

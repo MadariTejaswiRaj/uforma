@@ -5,10 +5,8 @@ export default async function ExplorePage() {
   // Fetch data from Supabase
   const supabase = createClient()
   const { data: ideas, error } = await supabase.from('ideas').select('*')
-  const response = await supabase
-  .from('countries')
-  .delete()
-  .eq('id', 1)
+  
+  
 
   // Log data to the console (only visible on the server side)
   console.log("ideas:", ideas);
